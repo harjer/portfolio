@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0d12">
+  <meta name="description" content="Developer portfolio showcasing web development, the FARM stack, AI, and cloud computing.">
+
+  <title>Elvis Yegon | Developer Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a class="logo" href="#home">EY<span>.</span></a>
+
+      <button class="menu-toggle" aria-label="Open navigation"
+        aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Expertise</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a class="nav-contact" href="#contact">Let's talk ↗️</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero container" id="home">
+      <div class="hero-content reveal">
+        <p class="eyebrow"><span class="status-dot"></span> DEVELOPER · CONTINUOUS LEARNER</p>
+
+        <h1>Building for<br>
+          <span class="serif accent">the digital</span> world.
+        </h1>
+
+        <p class="hero-description">
+          I'm <strong>Elvis Yegon</strong>, a developer passionate about
+          building thoughtful web experiences and exploring the possibilities
+          of artificial intelligence and cloud computing.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">Explore my work <span>↗️</span></a>
+          <a href="#about" class="btn btn-secondary">A little about me</a>
+        </div>
+
+        <div class="hero-meta">
+          <span>BASED IN KENYA</span>
+          <span class="meta-divider"></span>
+          <span>OPEN TO OPPORTUNITIES</span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="visual-frame">
+          <div class="frame-top">
+            <span>DEVELOPER_PROFILE</span>
+            <span class="frame-symbol">✳️</span>
+          </div>
+
+          <div class="monogram">E<span>Y</span></div>
+
+          <div class="visual-caption">
+            <div>
+              <p class="caption-label">CURRENT FOCUS</p>
+              <h3>Code. Create. Evolve.</h3>
+            </div>
+            <span class="caption-arrow">↗️</span>
+          </div>
+        </div>
+
+        <div class="floating-note">
+          <span class="note-icon">✦</span>
+          <div>
+            <strong>Always learning</strong>
+            <p>One project at a time.</p>
+          </div>
+        </div>
+
+        <div class="visual-orbit orbit-one"></div>
+        <div class="visual-orbit orbit-two"></div>
+      </div>
+
+      <div class="hero-bottom">
+        <span>SCROLL TO DISCOVER</span>
+        <span class="scroll-line"></span>
+        <span>01 / 04</span>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 — THE PERSON BEHIND THE CODE</p>
+          <h2>Curiosity is where<br> <span class="serif accent">it all begins.</span></h2>
+        </div>
+
+        <div class="about-copy reveal">
+          <p class="lead">
+            I believe great technology starts with asking better questions
+            and building useful solutions.
+          </p>
+
+          <p>
+            My journey in tech began with the fundamentals of web development.
+            Today, I'm building my skills in frontend experiences, backend
+            development, and full-stack application design.
+          </p>
+
+          <p>
+            Beyond the web, I'm exploring AI and cloud computing to understand
+            how intelligent, scalable applications are built and deployed.
+            I'm interested in learning by doing, collaborating, and turning
+            ideas into working projects.
+          </p>
+
+          <a href="#contact" class="text-link">Let's connect <span>↗️</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">02 — WHAT I'M WORKING WITH</p>
+          <h2>A growing toolkit.<br><span class="serif accent">An open mind.</span></h2>
+          <p class="section-description">
+            Building a solid foundation while exploring what's next.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <span class="skill-number">01</span>
+            <span class="skill-icon">&lt;/&gt;</span>
+            <h3>Web Development</h3>
+            <p>Creating responsive interfaces with clean structure,
+              purposeful styling, and interactive experiences.</p>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <span class="skill-number">02</span>
+            <span class="skill-icon">⌘</span>
+            <h3>Full-Stack Development</h3>
+            <p>Exploring end-to-end application development, APIs,
+              data storage, and server-side logic.</p>
+            <div class="tags">
+              <span>FastAPI</span><span>React</span><span>MongoDB</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <span class="skill-number">03</span>
+            <span class="skill-icon">✳️</span>
+            <h3>Artificial Intelligence</h3>
+            <p>Discovering how machine learning and AI-powered tools
+              can solve real-world problems.</p>
+            <div class="tags">
+              <span>AI</span><span>Automation</span><span>Exploring</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <span class="skill-number">04</span>
+            <span class="skill-icon">☁️</span>
+            <h3>Cloud Computing</h3>
+            <p>Learning about deployment, cloud infrastructure,
+              scalable systems, and modern developer workflows.</p>
+            <div class="tags">
+              <span>Cloud</span><span>Deployment</span><span>Learning</span>
+            </div>
+          </article>
+        </div>
+         <p class="stack-note">
+          ALSO IN MY WORKFLOW <span>Git</span> <span>GitHub</span>
+          <span>Responsive Design</span> <span>Problem Solving</span>
+        </p>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="projects-heading reveal">
+          <div class="section-heading">
+            <p class="eyebrow">03 — SELECTED WORK</p>
+            <h2>Ideas into <span class="serif accent">reality.</span></h2>
+          </div>
+          <p class="section-description">
+            A collection of projects, experiments, and things I'm learning
+            to build.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card project-featured reveal">
+            <div class="project-art art-one">
+              <span class="art-label">01 / WEB DEVELOPMENT</span>
+              <div class="browser-mockup">
+                <div class="browser-bar"><i></i><i></i><i></i></div>
+                <div class="browser-content">
+                  <div class="mock-line short"></div>
+                  <div class="mock-heading"></div>
+                  <div class="mock-heading smaller"></div>
+                  <div class="mock-button"></div>
+                  <div class="mock-circle"></div>
+                </div>
+              </div>
+              <span class="art-index">01</span>
+            </div>
+            <div class="project-info">
+              <div>
+                <p class="project-type">FRONTEND · HTML / CSS / JS</p>
+                <h3>Personal Portfolio</h3>
+                <p>A responsive digital space showcasing my skills,
+                  projects, and journey as a developer.</p>
+              </div>
+              <a class="project-link" href="#contact" aria-label="Ask me about this project">↗️</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-art art-two">
+              <span class="art-label">02 / FULL-STACK</span>
+              <div class="code-art">
+                <span>const</span> app = <span>createApp</span>();<br>
+                app.<b>build</b>({<br>
+                &nbsp;&nbsp;ideas: <em>"real solutions"</em>,<br>
+                &nbsp;&nbsp;status: <em>"in progress"</em><br>
+                });
+              </div>
+              <span class="art-index">02</span>
+            </div>
+            <div class="project-info">
+              <div>
+                <p class="project-type">FARM STACK</p>
+                <h3>Full-Stack Application</h3>
+                <p>A space for a future application using FastAPI,
+                  React, and MongoDB.</p>
+              </div>
+              <a class="project-link" href="#contact" aria-label="Ask me about this project">↗️</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-art art-three">
+              <span class="art-label">03 / EXPLORATION</span>
+        …<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0d12">
+  <meta name="description" content="Developer portfolio showcasing web development, the FARM stack, AI, and cloud computing.">
+
+  <title>Your Name | Developer Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a class="logo" href="#home">YN<span>.</span></a>
+
+      <button class="menu-toggle" aria-label="Open navigation"
+        aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Expertise</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a class="nav-contact" href="#contact">Let's talk ↗</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero container" id="home">
+      <div class="hero-content reveal">
+        <p class="eyebrow"><span class="status-dot"></span> DEVELOPER · CONTINUOUS LEARNER</p>
+
+        <h1>Building for<br>
+          <span class="serif accent">the digital</span> world.
+        </h1>
+
+        <p class="hero-description">
+          I'm <strong>Your Name</strong>, a developer passionate about
+          building thoughtful web experiences and exploring the possibilities
+          of artificial intelligence and cloud computing.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">Explore my work <span>↗</span></a>
+          <a href="#about" class="btn btn-secondary">A little about me</a>
+        </div>
+
+        <div class="hero-meta">
+          <span>BASED IN KENYA</span>
+          <span class="meta-divider"></span>
+          <span>OPEN TO OPPORTUNITIES</span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="visual-frame">
+          <div class="frame-top">
+            <span>DEVELOPER_PROFILE</span>
+            <span class="frame-symbol">✳</span>
+          </div>
+
+          <div class="monogram">Y<span>N</span></div>
+
+          <div class="visual-caption">
+            <div>
+              <p class="caption-label">CURRENT FOCUS</p>
+              <h3>Code. Create. Evolve.</h3>
+            </div>
+            <span class="caption-arrow">↗</span>
+          </div>
+        </div>
+
+        <div class="floating-note">
+          <span class="note-icon">✦</span>
+          <div>
+            <strong>Always learning</strong>
+            <p>One project at a time.</p>
+          </div>
+        </div>
+
+        <div class="visual-orbit orbit-one"></div>
+        <div class="visual-orbit orbit-two"></div>
+      </div>
+
+      <div class="hero-bottom">
+        <span>SCROLL TO DISCOVER</span>
+        <span class="scroll-line"></span>
+        <span>01 / 04</span>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 — THE PERSON BEHIND THE CODE</p>
+          <h2>Curiosity is where<br> <span class="serif accent">it all begins.</span></h2>
+        </div>
+
+        <div class="about-copy reveal">
+          <p class="lead">
+            I believe great technology starts with asking better questions
+            and building useful solutions.
+          </p>
+
+          <p>
+            My journey in tech began with the fundamentals of web development.
+            Today, I'm building my skills in frontend experiences, backend
+            development, and full-stack application design.
+          </p>
+
+          <p>
+            Beyond the web, I'm exploring AI and cloud computing to understand
+            how intelligent, scalable applications are built and deployed.
+            I'm interested in learning by doing, collaborating, and turning
+            ideas into working projects.
+          </p>
+
+          <a href="#contact" class="text-link">Let's connect <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">02 — WHAT I'M WORKING WITH</p>
+          <h2>A growing toolkit.<br><span class="serif accent">An open mind.</span></h2>
+          <p class="section-description">
+            Building a solid foundation while exploring what's next.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <span class="skill-number">01</span>
+            <span class="skill-icon">&lt;/&gt;</span>
+            <h3>Web Development</h3>
+            <p>Creating responsive interfaces with clean structure,
+              purposeful styling, and interactive experiences.</p>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <span class="skill-number">02</span>
+            <span class="skill-icon">⌘</span>
+            <h3>Full-Stack Development</h3>
+            <p>Exploring end-to-end application development, APIs,
+              data storage, and server-side logic.</p>
+            <div class="tags">
+              <span>FastAPI</span><span>React</span><span>MongoDB</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <span class="skill-number">03</span>
+            <span class="skill-icon">✳</span>
+            <h3>Artificial Intelligence</h3>
+            <p>Discovering how machine learning and AI-powered tools
+              can solve real-world problems.</p>
+            <div class="tags">
+              <span>AI</span><span>Automation</span><span>Exploring</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <span class="skill-number">04</span>
+            <span class="skill-icon">☁</span>
+            <h3>Cloud Computing</h3>
+            <p>Learning about deployment, cloud infrastructure,
+              scalable systems, and modern developer workflows.</p>
+            <div class="tags">
+              <span>Cloud</span><span>Deployment</span><span>Learning</span>
+            </div>
+          </article>
+        </div>
+
+        <p class="stack-note">
+          ALSO IN MY WORKFLOW <span>Git</span> <span>GitHub</span>
+          <span>Responsive Design</span> <span>Problem Solving</span>
+        </p>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="projects-heading reveal">
+          <div class="section-heading">
+            <p class="eyebrow">03 — SELECTED WORK</p>
+            <h2>Ideas into <span class="serif accent">reality.</span></h2>
+          </div>
+          <p class="section-description">
+            A collection of projects, experiments, and things I'm learning
+            to build.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card project-featured reveal">
+            <div class="project-art art-one">
+              <span class="art-label">01 / WEB DEVELOPMENT</span>
+              <div class="browser-mockup">
+                <div class="browser-bar"><i></i><i></i><i></i></div>
+                <div class="browser-content">
+                  <div class="mock-line short"></div>
+                  <div class="mock-heading"></div>
+                  <div class="mock-heading smaller"></div>
+                  <div class="mock-button"></div>
+                  <div class="mock-circle"></div>
+                </div>
+              </div>
+              <span class="art-index">01</span>
+            </div>
+            <div class="project-info">
+              <div>
+                <p class="project-type">FRONTEND · HTML / CSS / JS</p>
+                <h3>Personal Portfolio</h3>
+                <p>A responsive digital space showcasing my skills,
+                  projects, and journey as a developer.</p>
+              </div>
+              <a class="project-link" href="#contact" aria-label="Ask me about this project">↗</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-art art-two">
+              <span class="art-label">02 / FULL-STACK</span>
+              <div class="code-art">
+                <span>const</span> app = <span>createApp</span>();<br>
+                app.<b>build</b>({<br>
+                &nbsp;&nbsp;ideas: <em>"real solutions"</em>,<br>
+                &nbsp;&nbsp;status: <em>"in progress"</em><br>
+                });
+              </div>
+              <span class="art-index">02</span>
+            </div>
+            <div class="project-info">
+              <div>
+                <p class="project-type">FARM STACK</p>
+                <h3>Full-Stack Application</h3>
+                <p>A space for a future application using FastAPI,
+                  React, and MongoDB.</p>
+              </div>
+              <a class="project-link" href="#contact" aria-label="Ask me about this project">↗</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-art art-three">
+              <span class="art-label">03 / EXPLORATION</span>
+              <div class="ai-art">
+                <div class="ai-ring ring-a"></div>
+                <div class="ai-ring ring-b"></div>
+                <div class="ai-core">AI</div>
+              </div>
+              <span class="art-index">03</span>
+            </div>
+            <div class="project-info">
+              <div>
+                <p class="project-type">AI & CLOUD</p>
+                <h3>Learning Lab</h3>
+                <p>Experiments exploring intelligent applications,
+                  deployment, and cloud technologies.</p>
+              </div>
+              <a class="project-link" href="#contact" aria-label="Ask me about this project">↗</a>
+            </div>
+          </article>
+        </div>
+
+        <p class="projects-footnote">
+          These are portfolio placeholders and concept previews.
+          Replace them with your actual projects, descriptions, and repository links.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-inner reveal">
+        <p class="eyebrow">04 — HAVE A PROJECT IN MIND?</p>
+        <h2>Good things start<br>with a <span class="serif accent">conversation.</span></h2>
+        <p class="contact-description">
+          Open to learning opportunities, collaborations, internships,
+          and interesting problems worth solving.
+        </p>
+
+        <a class="btn btn-primary" href="mailto:yegonelvis3@gmail.com">
+          Get in touch <span>↗</span>
+        </a>
+
+        <div class="social-links">
+          <a href="https://github.com/harjer" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="mailto:yegonelvis3@gmail.com">Email ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="logo" href="#home">EY<span>.</span></a>
+      <p>Designed with intention. Built with curiosity.</p>
+      <p>©2026<span id="year"></span>@elvoo.tech</p>
+    </div>
+  </footer>
+</body>
+<a
+  class="whatsapp-float"
+  href="https://wa.me/254740548889?text=Hi%2C%20I%20saw%20your%20portfolio!"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Chat with me on WhatsApp"
+  title="Chat with me on WhatsApp"
+>
+  <svg viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.6 0 .3 5.3.3 11.8c0 2.1.6 4.2 1.6 6L0 24l6.3-1.7a12 12 0 0 0 5.8 1.5h.1C18.7 23.8 24 18.5 24 12a11.8 11.8 0 0 0-3.5-8.5ZM12.1 21.8a10 10 0 0 1-5.1-1.4l-.4-.2-3.8 1 1-3.7-.3-.4a9.9 9.9 0 1 1 8.6 4.7Zm5.4-7.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.2-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-1.6-.8-2.7-1.5-3.8-3.4-.3-.5.3-.5.8-1.6.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 4.9 4.3 1.8.8 2.5.8 3.4.7.5-.1 1.7-.7 2-1.4.2-.7.2-1.3.1-1.4-.1-.2-.3-.2-.6-.3Z"/>
+  </svg>
+</a>
+</html>
